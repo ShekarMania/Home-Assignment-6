@@ -26,7 +26,7 @@ if(cluster.isMaster){
 
 
 // Common Server Logic
-var unifiedServer = (req,res) => {
+const unifiedServer = (req,res) => {
 
   // Parsing Url
   const parsedUrl = url.parse(req.url, true);
