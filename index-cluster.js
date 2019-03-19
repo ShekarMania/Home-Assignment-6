@@ -108,7 +108,7 @@ handlers.hello = (data, callback) => {
 }
 
 // Not Found Handler
-handlers.notFound = function(data, callback){
+handlers.notFound = (data, callback) => {
   callback(404, { msg : "Not Found" })
 }
 
